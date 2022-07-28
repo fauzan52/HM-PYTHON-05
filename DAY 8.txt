@@ -1,0 +1,26 @@
+Kamis, 28 Juli 2022
+
+import semua function
+from function1 import *
+
+import salah satu function
+from function2 import langganan
+
+import semua function beda folder
+import sys
+sys.path.insert (0, 'C:/Users/USER/Documents/Fauzan Alghifari/HM-PYTHON-05/modul')
+from function2 import *
+
+Manipulasi error
+try:
+    aint = int (a)
+    bint = int (b)
+    if bint == 2 :
+TIDAK BOLEH MEMASUKKAN ANGKA 2
+        raise Exception
+    if bint == 3 :
+TIDAK BOLEH MEMASUKKAN ANGKA 3
+        raise Exception
+    c = aint / bint
+except Exception:
+    print ("Tidak boleh memasukkan angka 2 atau 3")
